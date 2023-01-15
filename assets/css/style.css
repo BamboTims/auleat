@@ -1307,6 +1307,38 @@ ul.paragraph li i {
   position: absolute;
   right: 0;
 }
+
+.hidden {
+  opacity: 0;
+  display: none;
+  visibility: hidden;
+}
+
+.wrap {
+  position: fixed;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.page {
+  width: 50%;
+  background-color: white;
+  border-radius: 5px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .chevron::before,
 .chevron::after {
   content: "";
