@@ -2,6 +2,7 @@ const entries = document?.querySelector(".entries");
 const orders = document.querySelector(".title-checkout").querySelector("h6");
 const prices = document.querySelectorAll(".prio");
 const carts = JSON.parse(sessionStorage.getItem("carts"));
+console.log(carts);
 
 orders.innerText = carts.length;
 const total = carts.reduce((acc, el) => el.quantity * el.price + acc, 0);
