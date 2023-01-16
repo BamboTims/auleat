@@ -3478,3 +3478,9 @@ li.menu-item-has-children.active {
   height: 100%;
   position: fixed;
 }
+
+.btn-2{
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
