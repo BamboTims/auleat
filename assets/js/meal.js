@@ -9,32 +9,32 @@ const carts = [];
 const breakFast = [
   {
     foodname: "Toast and egg",
-    price: 50,
+    price: 100,
     mealtype: "breakfast",
     image:
       "https://unsplash.com/photos/FFqNATH27EM/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8YnJlYWtmYXN0fGVufDB8fHx8MTY3MzA3NDMxMA&force=true&w=640",
   },
 
   {
-    foodname: "Oatmeal and banana",
-    price: 60,
+    foodname: "Spaghetti",
+    price: 100,
     mealtype: "breakfast",
     image:
-      "https://unsplash.com/photos/oh-5xHAtJg8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjN8fEJyZWFrZmFzdHxlbnwwfHx8fDE2NzMwNzQ1NTY&force=true&w=640",
+      "https://images.unsplash.com/photo-1622973536968-3ead9e780960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
   {
-    foodname: "Efo riro and Semovita",
-    price: 70,
-    mealtype: "Any",
+    foodname: "Akara",
+    price: 50,
+    mealtype: "breakfast",
     image:
-      "https://unsplash.com/photos/kn_ANxnwCQ0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8bmlnZXJpYW4lMjBmb29kfGVufDB8fHx8MTY3MzAzNjAzMw&force=true&w=640",
+      "https://cdn.punchng.com/wp-content/uploads/2020/07/27065257/Akara.jpg",
   },
   {
-    foodname: "White rice fried egg and beef",
-    price: 10,
-    mealtype: "Lunch",
+    foodname: "Apple",
+    price: 150,
+    mealtype: "fruits",
     image:
-      "https://unsplash.com/photos/szQFiGZH8wU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8am9sbG9mJTIwcmljZXxlbnwwfHx8fDE2NzMwMzM4NzA&force=true&w=640",
+      "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
   {
     foodname: "Indomie and fried egg",
@@ -42,6 +42,13 @@ const breakFast = [
     mealtype: "Lunch",
     image:
       "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+  },
+  {
+    foodname: "Pear",
+    price: 150,
+    mealtype: "fruits",
+    image:
+      "https://images.unsplash.com/photo-1514756331096-242fdeb70d4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
   },
 ];
 
