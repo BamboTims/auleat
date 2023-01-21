@@ -4,7 +4,7 @@ const prices = document.querySelectorAll(".prio");
 const carts = JSON.parse(sessionStorage.getItem("carts"));
 
 orders.innerText = carts.length;
-const total = carts.reduce((acc, el) => el.quantity * el.price + acc, 0);
+const total = carts.reduce((acc, el) => (el.addedFood ? 100 : 0) + (el.quantity * el.price) + acc, 0);
 console.log(total);
 
 prices.forEach((el) => {
@@ -16,12 +16,12 @@ carts.forEach((el) => {
     <i class="closeButton fa-solid fa-xmark"></i>
     <div class="counter-container">
       <div class="counter-food">
-        <h4>${el.foodname}</h4>
+        <h4>${el.foodname + (el.addedFood ? ` with ${el.addedFood}` : "")}</h4>
       </div>
     </div>
     <div class="price">
         <div>
-                  <h2>N${el.price * el.quantity}</h2>
+                  <h2>N${(el.addedFood ? 100 : 0) +(el.price * el.quantity)}</h2>
                   <span>Sum</span>
                 </div>
                   <div>

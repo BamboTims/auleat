@@ -21,6 +21,8 @@ const breakFast = [
     mealtype: "breakfast",
     image:
       "https://images.unsplash.com/photo-1622973536968-3ead9e780960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+
   },
   {
     foodname: "Akara",
@@ -37,11 +39,13 @@ const breakFast = [
       "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
   },
   {
-    foodname: "Indomie and fried egg",
+    foodname: "Indomie",
     price: 150,
     mealtype: "Lunch",
     image:
       "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef", "Hotdog"],
+
   },
   {
     foodname: "Pear",
@@ -59,6 +63,8 @@ const Lunch = [
     mealtype: "breakfast",
     image:
       "https://images.unsplash.com/photo-1622973536968-3ead9e780960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
     foodname: "Efo riro and Semovita",
@@ -66,20 +72,26 @@ const Lunch = [
     mealtype: "Any",
     image:
       "https://unsplash.com/photos/kn_ANxnwCQ0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8bmlnZXJpYW4lMjBmb29kfGVufDB8fHx8MTY3MzAzNjAzMw&force=true&w=640",
+      additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
-    foodname: "White rice fried egg and beef",
-    price: 300,
+    foodname: "White rice",
+    price: 100,
     mealtype: "Lunch",
     image:
       "https://unsplash.com/photos/szQFiGZH8wU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8am9sbG9mJTIwcmljZXxlbnwwfHx8fDE2NzMwMzM4NzA&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
-    foodname: "Indomie and fried egg",
+    foodname: "Indomie",
     price: 150,
     mealtype: "Lunch",
     image:
       "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef", "Hotdog"],
+    
   },
   {
     foodname: "Jollof rice",
@@ -87,6 +99,8 @@ const Lunch = [
     mealtype: "Lunch",
     image:
       "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/08/01/jollof-rice-on-blue-and-white-plate.jpg.rend.hgtvcom.476.357.suffix/1659375750019.jpeg",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
     foodname: "Beans and Plantain",
@@ -126,27 +140,35 @@ const Dinner = [
     mealtype: "dinner",
     image:
       "https://cheflolaskitchen.com/wp-content/uploads/2015/06/website-edition-500x455.jpg",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
     foodname: "Efo riro and Semovita",
-    price: 70,
+    price: 150,
     mealtype: "Any",
     image:
       "https://unsplash.com/photos/kn_ANxnwCQ0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8bmlnZXJpYW4lMjBmb29kfGVufDB8fHx8MTY3MzAzNjAzMw&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
-    foodname: "White rice fried egg and beef",
-    price: 300,
+    foodname: "White rice",
+    price: 100,
     mealtype: "dinner",
     image:
       "https://unsplash.com/photos/szQFiGZH8wU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MXx8am9sbG9mJTIwcmljZXxlbnwwfHx8fDE2NzMwMzM4NzA&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
   {
-    foodname: "Indomie and fried egg",
+    foodname: "Indomie",
     price: 150,
     mealtype: "dinner",
     image:
       "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
    {
     foodname: "Yam porridge",
@@ -154,6 +176,8 @@ const Dinner = [
     mealtype: "dinner",
     image:
       "https://i0.wp.com/www.thepretendchef.com/wp-content/uploads/2017/06/Asaro-mashed-yam-porridge-1-5.jpg?fit=640%2C480&ssl=1",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
+    
   },
 ];
 
@@ -184,6 +208,14 @@ breakFast.forEach((el) => {
    <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
  </div>
 </div>
+${
+  (el.additionals) ?`<div class="addi">
+  <label for="add">Additionals:</label>
+  <select id="add">
+    ${el.additionals.map(el => `<option value=${el}>${el}</option>`)}
+  </select>
+</div> `:""
+}
 <button class="button-price">Add to Basket<i class="fa-solid fa-bag-shopping"></i></button>
     </div>
     <div class="dish-info" style="display: none;">
@@ -234,6 +266,14 @@ Lunch.forEach((el) => {
    <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
  </div>
 </div>
+${
+  (el.additionals) ?`<div class="addi">
+  <label for="add">Additionals:</label>
+  <select id="add">
+    ${el.additionals.map(el => `<option value=${el}>${el}</option>`)}
+  </select>
+</div> `:""
+}
 <button class="button-price">Add to Basket<i class="fa-solid fa-bag-shopping"></i></button>
     </div>
     <div class="dish-info" style="display: none;">
@@ -284,6 +324,14 @@ Dinner.forEach((el) => {
    <button class="qty-count qty-count--add" data-action="add" type="button">+</button>
  </div>
 </div>
+${
+  (el.additionals) ?`<div class="addi">
+  <label for="add">Additionals:</label>
+  <select id="add">
+    ${el.additionals.map(el => `<option value=${el}>${el}</option>`)}
+  </select>
+</div> `:""
+}
 <button class="button-price">Add to Basket<i class="fa-solid fa-bag-shopping"></i></button>
     </div>
     <div class="dish-info" style="display: none;">
@@ -316,6 +364,9 @@ container.addEventListener("click", (e) => {
   const parent = clicked.parentNode;
   const foodName = parent.children[0].innerText;
   const quantity = parent.querySelector(".product-qty").value;
+  const additionals = parent?.querySelector("#add");
+  const addedFood = (additionals?.value === "Select")? undefined : additionals.value;
+  console.log(addedFood);
 
   const foodItem = meals.find((el) => el.foodname === foodName);
 
@@ -330,6 +381,7 @@ container.addEventListener("click", (e) => {
   } else {
     carts.push({
       quantity,
+      addedFood,
       ...foodItem,
     });
   }
