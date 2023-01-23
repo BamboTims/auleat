@@ -20,7 +20,7 @@ const breakFast = [
     price: 100,
     mealtype: "breakfast",
     image:
-      "https://images.unsplash.com/photo-1622973536968-3ead9e780960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "./assets/img/IMG_9874.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
 
   },
@@ -35,15 +35,14 @@ const breakFast = [
     foodname: "Apple",
     price: 150,
     mealtype: "fruits",
-    image:
-      "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    image: "./assets/img/IMG_9900.JPG"
   },
   {
     foodname: "Indomie",
     price: 150,
     mealtype: "Lunch",
     image:
-      "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+      "./assets/img/IMG_9926.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef", "Hotdog"],
 
   },
@@ -62,9 +61,9 @@ const Lunch = [
     price: 100,
     mealtype: "breakfast",
     image:
-      "https://images.unsplash.com/photo-1622973536968-3ead9e780960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "./assets/img/IMG_9874.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
-    
+
   },
   {
     foodname: "Efo riro and Semovita",
@@ -89,16 +88,16 @@ const Lunch = [
     price: 150,
     mealtype: "Lunch",
     image:
-      "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
+      "./assets/img/IMG_9926.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef", "Hotdog"],
-    
+
   },
   {
     foodname: "Jollof rice",
     price: 100,
     mealtype: "Lunch",
     image:
-      "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2022/08/01/jollof-rice-on-blue-and-white-plate.jpg.rend.hgtvcom.476.357.suffix/1659375750019.jpeg",
+    "./assets/img/IMG_9887.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
     
   },
@@ -109,12 +108,11 @@ const Lunch = [
     image:
       "https://9jacuisine.co.uk/wp-content/uploads/2021/10/Ewa-agoyin.jpg",
   },
-   {
+  {
     foodname: "Apple",
     price: 150,
     mealtype: "fruits",
-    image:
-      "https://images.unsplash.com/photo-1619546813926-a78fa6372cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    image: "./assets/img/IMG_9900.JPG"
   },
    {
     foodname: "Banana",
@@ -139,7 +137,7 @@ const Dinner = [
     price: 100,
     mealtype: "dinner",
     image:
-      "https://cheflolaskitchen.com/wp-content/uploads/2015/06/website-edition-500x455.jpg",
+      "./assets/img/IMG_9892.JPG",
     additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
     
   },
@@ -164,11 +162,11 @@ const Dinner = [
   {
     foodname: "Indomie",
     price: 150,
-    mealtype: "dinner",
+    mealtype: "Lunch",
     image:
-      "https://unsplash.com/photos/rn7BK2AaaOE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTR8fGpvbGxvZiUyMHJpY2V8ZW58MHx8fHwxNjczMDMzODcw&force=true&w=640",
-    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef"],
-    
+      "./assets/img/IMG_9926.JPG",
+    additionals: ["Select","Fish", "Ponmo", "Egg", "Beef", "Hotdog"],
+
   },
    {
     foodname: "Yam porridge",
